@@ -1,5 +1,10 @@
-import HomeScreen from './src/screens/HomeScreen';
+import { SafeAreaProvider } from 'react-native-safe-area-context';
+import OperatorsPlayground from './src/screens/OperatorsPlayground';
 function App() {
-  return <HomeScreen />;
+  return (
+    <SafeAreaProvider>
+      <OperatorsPlayground />
+    </SafeAreaProvider>
+  );
 }
 export default App;
