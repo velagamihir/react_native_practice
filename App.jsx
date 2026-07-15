@@ -1,11 +1,9 @@
 import { SafeAreaProvider } from 'react-native-safe-area-context';
-import JsxPlayground from './src/screens/JSXPlayground';
-import StudentProfileApp from './src/screens/StudentProfileApp';
+import CompanyManagementDashboardScreen from './src/screens/CompanyManagementDashboardScreen';
 function App() {
   return (
     <SafeAreaProvider>
-      <JsxPlayground />
-      <StudentProfileApp />
+      <CompanyManagementDashboardScreen />
     </SafeAreaProvider>
   );
 }
