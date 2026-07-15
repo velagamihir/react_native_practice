@@ -53,7 +53,7 @@ const FunctionComponent = () => {
   };
   return (
     <View>
-      <Text>{greet}</Text>
+      <Text>{greet()}</Text>
     </View>
   );
 };

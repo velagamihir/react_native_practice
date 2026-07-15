@@ -1,9 +1,9 @@
 import { SafeAreaProvider } from 'react-native-safe-area-context';
-import OperatorsPlayground from './src/screens/OperatorsPlayground';
+import JsxPlayground from './src/screens/JSXPlayground';
 function App() {
   return (
     <SafeAreaProvider>
-      <OperatorsPlayground />
+      <JsxPlayground />
     </SafeAreaProvider>
   );
 }
